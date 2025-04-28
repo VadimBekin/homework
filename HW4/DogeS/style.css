@@ -1,0 +1,33 @@
+
+body {
+    background-color: blue;
+}
+.Doge {
+    color: red;
+    font-size: 25px;
+}
+.spis {
+    font-size: 40px;
+    font-family: "Monsieur La Doulaise";
+}
+h6 {
+    color: brown;
+}
+h4 {
+    color: aqua;
+}
+h2 {
+    color: hotpink;
+}
+#DSN {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p2 {
+    background-color: aqua;
+}
+.p3 {
+    background-color: hotpink;
+    color: rgb(75, 71, 71);
+}

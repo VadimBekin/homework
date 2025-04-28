@@ -1,0 +1,13 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    background-image: url("https://shop-cdn1-2.vigbo.tech/shops/210128/products/22095624/images/3-5a53b48f6e75787f4eacba5e502906b2.png");
+}
+.zag {
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+}
+table {
+    background-color: rgb(234, 232, 146);
+    opacity: 0.85;
+}
