@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="11" class="kal">
+                <span>Калькулятор</span>
+            </td>
+        </tr>
+        <tr>
+            <td><button class="panel">Правка</button></td>
+            <td><button class="panel">Вид</button></td>
+            <td><button class="panel">Справка</button></td>
+        </tr>
+        <tr>
+            <td colspan="11" align="right"><input type="number" placeholder="0.1"></td>
+        </tr>
+        <tr>
+            <td colspan="6" class="bord">
+                <input type="radio" name="choose" value="1" id="Hex">
+                <label for="Hex">Hex</label>
+                <input type="radio" name="choose" value="1" id="Dec">
+                <label for="Dec">Dec</label>
+                <input type="radio" name="choose" value="1" id="Oct">
+                <label for="Oct">Oct</label>
+                <input type="radio" name="choose" value="1" id="Bin">
+                <label for="Bin">Bin</label>
+            </td>
+            <td colspan="5" class="bord">
+                <input type="radio" name="choose1" value="2" id="Degress">
+                <label for="Degress">Degress</label>
+                <input type="radio" name="choose1" value="2" id="Radians">
+                <label for="Radians">Radians</label>
+                <input type="radio" name="choose1" value="2" id="Gradients">
+                <label for="Gradients">Gradients</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="bord">
+                <input type="checkbox" name="group" value="1" id="Inv">
+                <label for="Inv">Inv</label>
+                <input type="checkbox" name="group" value="1" id="Hyp">
+                <label for="Hyp">Hyp</label>
+            </td>
+            <td align="center">
+                <textarea cols="1" rows="1" style="resize: none" readonly></textarea>
+            </td>
+            <td align="left">
+                <textarea cols="1" rows="1" style="resize: none"></textarea>
+            </td>
+            <td colspan="7" align="right">
+                <button class="knop3">Backspace</button>
+                <button class="knop3">CE</button>
+                <button class="knop3">C</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="blu">Sta</button>
+            </td>
+            <td colspan="3">
+                <button class="per">F-E</button>
+                <button class="per">(</button>
+                <button class="per">)</button>
+            </td>
+            <td colspan="1" align="center">
+                <button>MC</button>
+            </td>
+            <td colspan="6" align="right">
+                <button class="blu">7</button>
+                <button class="blu">8</button>
+                <button class="blu">9</button>
+                <button>/</button>
+                <button>Mod</button>
+                <button>And</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="ser">Ave</button>
+            </td>
+            <td colspan="3">
+                <button class="per">dms</button>
+                <button class="per">Exp</button>
+                <button class="per">In</button>
+            </td>
+            <td colspan="1" align="center">
+                <button>MR</button>
+            </td>
+            <td colspan="6" align="right">
+                <button class="blu">4</button>
+                <button class="blu">5</button>
+                <button class="blu">6</button>
+                <button>*</button>
+                <button>Or</button>
+                <button>Xor</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="ser">Sum</button>
+            </td>
+            <td colspan="3">
+                <button class="per">sin</button>
+                <button class="per">x^y</button>
+                <button class="per">log</button>
+            </td>
+            <td colspan="1" align="center">
+                <button>MS</button>
+            </td>
+            <td colspan="6" align="right">
+                <button class="blu">1</button>
+                <button class="blu">2</button>
+                <button class="blu">3</button>
+                <button>-</button>
+                <button>Lsh</button>
+                <button>Not</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="ser">s</button>
+            </td>
+            <td colspan="3">
+                <button class="per">cos</button>
+                <button class="per">x^3</button>
+                <button class="per">n!</button>
+            </td>
+            <td colspan="1" align="center">
+                <button>M+</button>
+            </td>
+            <td colspan="6" align="right">
+                <button class="blu">0</button>
+                <button class="blu">+/-</button>
+                <button class="blu">,</button>
+                <button>+</button>
+                <button>=</button>
+                <button>Int</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="ser">Dat</button>
+            </td>
+            <td colspan="3">
+                <button class="per">tan</button>
+                <button class="per">x^2</button>
+                <button class="per">1/x</button>
+            </td>
+            <td colspan="1" align="center">
+                <button class="blu">pi</button>
+            </td>
+            <td colspan="6" align="right">
+                <button class="ser">A</button>
+                <button class="ser">B</button>
+                <button class="ser">C</button>
+                <button class="ser">D</button>
+                <button class="ser">E</button>
+                <button class="ser">F</button>
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
