@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.grid1, .grid3 {
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: 1fr;
+    height: 20%;
+    margin-bottom: 10px;
+
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    height: 60%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.y1-2 {
+    background-color: yellow;
+}
+
+.y1-3 {
+    background-color: yellow;
+}
+
+.y1-4 {
+    background-color: yellow;
+}
