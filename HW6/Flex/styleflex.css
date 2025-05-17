@@ -3,35 +3,44 @@ html, body {
     margin: 0;
 }
 
-.flexyellow1, .flexyellow3 {
-    background-color: yellow;
+.flexyellow1 {
     flex-direction: column;
-    margin-bottom: 10px;
     width: 100%;
+    height: 100%;
+}
+.yellow1-1 {
+    background-color: yellow;
+    margin-bottom: 10px;
     height: 20%;
 }
 
+.yellow1-5 {
+    background-color: yellow;
+    margin-top: 10px;
+    height: 20%;
+}
 .flexyellow2 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
     height: 60%;
+    gap: 10px;
 }
 
 .yellow1-2 {
-    margin: 0px 10px 10px 0px;
     background-color: yellow;
     width: 60%;
+    gap: 10px;
 }
 
 .yellow1-3 {
-    margin: 0px 10px 10px 0px;
     background-color: yellow;
     width: 20%;
+    gap: 10px;
 }
 
 .yellow1-4 {
-    margin-bottom: 10px;
     background-color: yellow;
     width: 20%;
+    gap: 10px;
 }
