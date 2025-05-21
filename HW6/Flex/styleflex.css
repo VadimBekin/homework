@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.flexyellow1 {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.yellow1-1 {
+    background-color: yellow;
+    margin-bottom: 10px;
+    height: 20%;
+}
+
+.yellow1-5 {
+    background-color: yellow;
+    margin-top: 10px;
+    height: 20%;
+}
+.flexyellow2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 60%;
+    gap: 10px;
+}
+
+.yellow1-2 {
+    background-color: yellow;
+    width: 60%;
+    gap: 10px;
+}
+
+.yellow1-3 {
+    background-color: yellow;
+    width: 20%;
+    gap: 10px;
+}
+
+.yellow1-4 {
+    background-color: yellow;
+    width: 20%;
+    gap: 10px;
+}
