@@ -1,0 +1,149 @@
+.vk {
+    background-color: whitesmoke;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "head head head head head head"
+        "panel foto foto info info info"
+        "panel foto foto info info info"
+        "panel foto foto info info info"
+        "panel friends friends mfoto mfoto mfoto"
+        "panel friends friends mfoto mfoto mfoto";
+}
+
+.head {
+    grid-area: head;
+    background-color: #1e3b83;
+    font-size: 100px;
+    color: #f1eded;
+    height: 70%;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.panel {
+    grid-area: panel;
+    background-color: white;
+    padding: 20px;
+}
+
+.muzz {
+    margin-left: 450px;
+    height: 30px;
+    background-color: #144c8a;
+    border-radius: 10px;
+
+}
+
+.serg {
+    margin-left: 650px;
+}
+
+.foto {
+    grid-area: foto;
+    background-color: white;
+    padding: 10px;
+}
+
+.foto1 {
+    width: 85%;
+    height: 85%;
+    border-radius: 350px;
+    margin-left: 50px;
+}
+
+.redak {
+    margin-left: 180px;
+    margin-top: 15px;
+    width: 300px;
+}
+
+.info {
+    grid-area: info;
+    background-color: white;
+    padding: 15px;
+}
+
+.info11 {
+    margin: 10px;
+    padding-left: 250px;
+}
+
+.friends {
+    background-color: white;
+    grid-area: friends;
+    height: 100%;
+    width: 100%;
+
+}
+
+.mfoto {
+    grid-area: mfoto;
+    background-color: white;
+    padding: 23px;
+
+}
+
+.ft {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding-left: 70px;
+    border-radius: 15px;
+}
+
+.span11 {
+    padding-left: 35px;
+}
+
+.ft2 {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+
+}
+
+.pok {
+    width: 350px;
+    margin-left: 300px;
+}
+
+button {
+    width: 150px;
+    border: 0;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(236, 229, 229);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #0e5ab3;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+    background-color: rgb(15, 97, 204);
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+li {
+    font-size: 25px;
+    color: #0e5ab3;
+    list-style: li;
+}
+
+@counter-style li {
+    system: fixed;
+    symbols: 😁 😇 😋 🤪 😎 😁 😇 😋 🤪 😎 🤪 😎;
+    suffix: " ";
+}
