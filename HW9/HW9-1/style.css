@@ -1,0 +1,71 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; list-style: none; text-decoration: none; }
+* body { height: 100vh; background-image: url("https://cdn.pixabay.com/photo/2022/05/20/13/29/dogs-7209506_1280.jpg"); background-size: cover; background-position: center; }
+* body .header { display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; left: 0; right: 0; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); padding: 0 10%; }
+* body .header-mau { font-size: 32px; font-weight: 700; color: brown; }
+* body .header-mau:hover { transform: scale(1.2); }
+* body .header .spis1 li { position: relative; float: left; }
+* body .header .spis1 li a { padding: 20px; color: black; font-size: 20px; display: block; }
+* body .header .spis1 li a:hover { background: black; color: white; }
+* body .link { padding: 80px 0; }
+* body .link-container-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px; height: 350px; }
+* body .link-container-cards-card1 { background-image: url("https://vet-centre.by/wp-content/uploads/2016/11/kot-eti-udivitelnye-kotiki.jpg"); }
+* body .link-container-cards-card2 { background-image: url("https://masterpiecer-images.s3.yandex.net/5fd531dca6427c7:upscaled"); }
+* body .link-container-cards-card3 { background-image: url("https://711515.selcdn.ru/recycleCDN/main/9/9ead29f7ebb448d64cd47e567738b77a_thumbnail.jpg"); }
+* body .link-container-cards-card4 { background-image: url("https://kartinki.pics/pics/uploads/posts/2022-09/1662615786_3-kartinkin-net-p-milie-kotiki-v-shapochkakh-instagram-3.jpg"); }
+* body .link-container-cards-card5 { background-image: url("https://static.insales-cdn.com/images/articles/1/5537/3249569/samyje-smjeshnyje-sobaki-v-mirje.jpg"); }
+* body .link-container-cards-card6 { background-image: url("https://www.ptichka.ru/data/cache/2018nov/05/46/79609_73338.jpg"); }
+* body .link-container-cards-card7 { background-image: url("https://i.pinimg.com/1200x/28/8f/5d/288f5db1695f2047925f5d5b1f2224d6.jpg"); }
+* body .link-container-cards-card8 { background-image: url("https://www.belnovosti.by/sites/default/files/2022-10/chihuahua-gca8ce1092_1280_compressed.jpg"); }
+* body .link-container-cards-card9 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAEKG92TcXBluHR_aylVunb_u-XCQ2zrVQUw&s"); }
+* body .link-container-cards-card10 { background-image: url("https://icdn.lenta.ru/images/2024/10/27/14/20241027145129733/square_1280_e8cda77e3d140a3217844fdb171a4586.jpg"); }
+* body .link-container-cards-card11 { background-image: url("https://cdn.myslo.ru/Content/Contents/f5/23/6f00-1c7f-4b11-99a1-b068288f4a94/36080457-500b-471c-abd6-81185c44933f.jpg"); }
+* body .link-container-cards-card12 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Gmt2Lj48pimxYkg4hg0FO2jymlyZL3KE9A&s"); }
+* body .link-container-cards li { padding: 30px; background-color: bisque; background-size: 100% 100%; background-repeat: no-repeat; background-position: center; border: black solid 1px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); }
+* body .link-container-cards li::before { content: ""; display: block; height: 350px; width: 100%; }
+
+@media (max-width: 1000px) { .link-container-cards { grid-template-columns: repeat(2, 2fr); } }
+@media (max-width: 500px) { .link-container-cards { grid-template-columns: repeat(1, 4fr); } }
+@media (max-width: 640px) { .header { padding: 0; } }
+@media (max-width: 505px) { .spis1 li a { padding: 0; padding-right: 5px; font-size: 15px; } }
+@media (max-width: 333px) { .header-mau { font-size: 20px; } }
+
+/*# sourceMappingURL=scsstyle.css.map */
+
+
+
+
+/*@media (max-width: 1000px) {*/
+/*    .link-container-cards {*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(2, 2fr);*/
+/*    }*/
+/*}*/
+/*@media (max-width: 500px) {*/
+/*    .link-container-cards {*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(1, 4fr);*/
+/*    }*/
+/*}*/
+/*@media (max-width: 640px) {*/
+/*    .header {*/
+/*        padding: 0;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 505px) {*/
+/*    .spis1 li a {*/
+/*        padding: 0;*/
+/*        padding-right: 5px;*/
+/*        font-size: 15px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 333px) {*/
+/*    .header-mau {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*}*/
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+form {
+  font-size: 13px;
+  table {
+    background-color: rgb(195, 190, 190);
+    border: #3e3841 solid 2px;
+  }
+  .panel {
+    background-color: rgb(161, 155, 155);
+    width: 45px;
+    height: 15px;
+    border-width: 0;
+    border-radius: 0.1em;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+    font-size: 8px;
+    color: #000000;
+  }
+  .bord {
+    border: 1px #48424b solid;
+  }
+  .knop3 {
+    background-color: rgb(161, 155, 155);
+    width: 75px;
+    height: 20px;
+    border-width: 0;
+    border-radius: 0.1em;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+    font-size: 13px;
+    color: brown;
+  }
+  .knop3:hover {
+    background-color: rgb(161, 155, 155);
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+  button {
+    background-color: rgb(161, 155, 155);
+    width: 30px;
+    height: 30px;
+    border-width: 0;
+    border-radius: 0.1em;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+    font-size: 10px;
+    color: brown;
+  }
+  button:hover {
+    background-color: rgb(161, 155, 155);
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+  }
+  button:active {
+    background-color: rgb(161, 155, 155);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+    transform: translateY(2px);
+  }
+  .blu {
+    color: blue;
+  }
+  .per {
+    color: #ca33da;
+  }
+  .ser {
+    color: #6c6a6a;
+  }
+  .kal {
+    background-color: blue;
+    color: white;
+    border: #3e3841 solid 1px;
+  }
+
+}
+

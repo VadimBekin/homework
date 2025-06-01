@@ -1,0 +1,15 @@
+form { font-size: 13px; }
+form table { background-color: #c3bebe; border: #3e3841 solid 2px; }
+form .panel { background-color: #a19b9b; width: 45px; height: 15px; border-width: 0; border-radius: 0.1em; box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8); font-size: 8px; color: #000000; }
+form .bord { border: 1px #48424b solid; }
+form .knop3 { background-color: #a19b9b; width: 75px; height: 20px; border-width: 0; border-radius: 0.1em; box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8); font-size: 13px; color: brown; }
+form .knop3:hover { background-color: #a19b9b; box-shadow: none; position: relative; top: 5px; }
+form button { background-color: #a19b9b; width: 30px; height: 30px; border-width: 0; border-radius: 0.1em; box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8); font-size: 10px; color: brown; }
+form button:hover { background-color: #a19b9b; box-shadow: none; position: relative; top: 2px; }
+form button:active { background-color: #a19b9b; box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8); transform: translateY(2px); }
+form .blu { color: blue; }
+form .per { color: #ca33da; }
+form .ser { color: #6c6a6a; }
+form .kal { background-color: blue; color: white; border: #3e3841 solid 1px; }
+
+/*# sourceMappingURL=scsstyle.css.map */
