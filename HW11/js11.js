@@ -1,7 +1,8 @@
-//z1
+// z1
 // const str1 = 'Hello'
 // const str2 = 'World!'
-// console.log(str1, str2)
+// const str3 = `${str1} ${str2}`
+// console.log(str3)
 
 //z2
 // const str1 = 'I learn computer science!'.replace(/\s/g, "_")
@@ -63,38 +64,40 @@
 // }
 
 //z6b
-const language = 'en';
-
-switch (language) {
-    case 'en':
-        console.log("1. Monday");
-        console.log("2. Tuesday");
-        console.log("3. Wednesday");
-        console.log("4. Thursday");
-        console.log("5. Friday");
-        console.log("6. Saturday");
-        console.log("7. Sunday");
-        break;
-    case 'ru':
-        console.log("1. Понедельник");
-        console.log("2. Вторник");
-        console.log("3. Среда");
-        console.log("4. Четверг");
-        console.log("5. Пятница");
-        console.log("6. Суббота");
-        console.log("7. Воскресенье");
-        break;
-    default:
-        console.log('Язык не поддерживается. Введите ru или en.')
-}
+// const language = 'en';
+//
+// switch (language) {
+//     case 'en':
+//         console.log("1. Monday");
+//         console.log("2. Tuesday");
+//         console.log("3. Wednesday");
+//         console.log("4. Thursday");
+//         console.log("5. Friday");
+//         console.log("6. Saturday");
+//         console.log("7. Sunday");
+//         break;
+//     case 'ru':
+//         console.log("1. Понедельник");
+//         console.log("2. Вторник");
+//         console.log("3. Среда");
+//         console.log("4. Четверг");
+//         console.log("5. Пятница");
+//         console.log("6. Суббота");
+//         console.log("7. Воскресенье");
+//         break;
+//     default:
+//         console.log('Язык не поддерживается. Введите ru или en.')
+// }
 
 //z7-8
-// const name = 'Jane';
-// const age = 21;
-//
-// if (name !== 'Jane') {
-//     console.log('John');
-// } else {
-//     console.log(`This is ${name}. She is ${age}.`);
-// }
+const obj = {
+    name: 'Jane',
+    age: 21
+}
+if (obj.name !== 'Jane') {
+    obj.name = 'John';
+    console.log(obj.name);
+} else {
+    console.log(`This is ${obj.name}. She is ${obj.age}.`);
+}
 
