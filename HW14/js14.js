@@ -1,7 +1,7 @@
 //z1
 // function proArr(numbers) {
 //     const evenNumbers = numbers.filter(num => num % 2 === 0);
-//     const evenAverage = evenNumbers.length > 0 ? evenNumbers.reduce((sum, num) => sum + num, 0) / evenNumbers.length : 0;
+//     const evenAverage = evenNumbers.length ? evenNumbers.reduce((sum, num) => sum + num, 0) / evenNumbers.length : 0;
 //
 //     const positiveNumbers = numbers.filter(num => num >= 0);
 //
@@ -21,39 +21,27 @@
 // console.log(result.sum3);
 
 //z2
-// function sred(arr) {
-//     if (!Array.isArray(arr) || arr.length === 0) {
-//     }
-//
-//     const sum = arr.reduce((total, num) => total + num, 0 );
-//     const average = sum / arr.length;
-//
-//     let closestValue = arr[0];
-//     let smallestDiff = Math.abs(arr[0] - average);
-//     let close = 0;
-//
-//     for (let i = 1; i < arr.length; i++) {
-//         const curr = Math.abs(arr[i] - average);
-//         if (curr < smallestDiff) {
-//             smallestDiff = curr;
-//             closestValue = arr[i];
-//             close = i;
-//
-//         }
-//     }
-//     return {
-//         average: average,
-//         close: close,
-//         closestValue: closestValue,
-//         difference: smallestDiff
-//     }
-// }
-//
-// const numbers = [10, 20, 35, 40, 50];
-// const result = sred(numbers);
-// console.log(result.average.toFixed(2));
-// console.log(result.closestValue, result.close);
-// console.log(result.difference.toFixed(2));
+function find(arr) {
+    if (!arr ||arr.length === 0) {
+        return undefined;
+    }
+    let sum = arr.reduce((acc, num) => acc + num, 0);
+    let average = sum / arr.length;
+    let nElement = arr[0];
+    let min = Math.abs(arr[0] - average);
+    for (let i = 1; i <= arr.length; i++) {
+        let dif = Math.abs(arr[i] - average);
+        if (dif < min) {
+            min = dif;
+            nElement = arr[i];
+        }
+    }
+    return nElement;
+}
+let num = [1, 8, 3, 10, 4, 7];
+let fin = find(num);
+console.log(fin);
+
 
 //z3
 // function sun(arr) {
@@ -72,17 +60,23 @@
 // console.log(sun([0, 1, 2, 3, 0, 4, 5]));
 
 //z4
-function right(arr, n, fillValue = 0) {
-    if (arr.length === 0);
-    n = n % arr.length;
-    const ship = new Array(arr.length).fill(fillValue);
-    for (let i = 0; i < arr.length; i++) {
-        const pos = (i + n)  % arr.length;
-        ship[pos] = arr[i];
-    }
-    return ship;
-}
-console.log(right([1, 2, 3, 4, 5], 3))
+
+// function right (arr, n, fillValue) {
+//     if (n <=0 || !Array.isArray(arr)) {
+//         return arr.slice;
+//     }
+//     const len = arr.length;
+//     if (len === 0) return arr.slice();
+//     n = Math.min(n, len);
+//     const removedElements = arr.splice(len - n, n);
+//     for (let i = 0; i < n; i++) {
+//         arr.unshift(fillValue);
+//     }
+//     return arr;
+// }
+// let myArray = [1, 2, 3, 4, 5];
+// let  rightArray = right(myArray, 2, 0);
+// console.log(rightArray);
 
 
 //z5
