@@ -60,7 +60,6 @@
 // console.log(sun([0, 1, 2, 3, 0, 4, 5]));
 
 //z4
-
 function right (arr, n, fillValue) {
     if (n <=0 || !Array.isArray(arr)) {
         return arr;
