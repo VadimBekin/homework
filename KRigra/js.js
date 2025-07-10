@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert('Введите ваше имя!');
                 return;
             }
-
             window.location.href = `game.html?name=${encodeURIComponent(playerName)}&rounds=${totalRounds}`;
         });
 
