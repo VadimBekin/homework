@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Играем!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div id="gameScreen">
+        <h1>Игра: <span id="currentRound">1</span>/<span id="totalRounds">3</span></h1>
+        <div class="scoreboard">
+            <div>Игрок (<span id="playerNameDisplay"></span>): <span id="playerScore">0</span></div>
+            <div>Компьютер: <span id="computerScore">0</span></div>
+        </div>
+
+        <h2>Ваш выбор:</h2>
+        <div class="choices">
+            <div class="choice" data-choice="rock">
+                <img src="img/rock.png" alt="Камень">
+                <p>Камень</p>
+            </div>
+            <div class="choice" data-choice="paper">
+                <img src="img/paper.png" alt="Бумага">
+                <p>Бумага</p>
+            </div>
+            <div class="choice" data-choice="scissors">
+                <img src="img/scissors.png" alt="Ножницы">
+                <p>Ножницы</p>
+            </div>
+        </div>
+
+        <div id="resultDisplay" style="display: none;">
+            <h2>Результат раунда:</h2>
+            <div class="selections">
+                <div>
+                    <h3>Вы выбрали:</h3>
+                    <img id="playerSelectionImg" src="" alt="">
+                    <p id="playerSelectionText"></p>
+                </div>
+                <div>
+                    <h3>Компьютер выбрал:</h3>
+                    <img id="computerSelectionImg" src="" alt="">
+                    <p id="computerSelectionText"></p>
+                </div>
+            </div>
+            <h2 id="roundResult"></h2>
+            <button id="nextRoundBtn">Следующий раунд</button>
+        </div>
+    </div>
+
+    <div id="gameOverScreen" style="display: none;">
+        <h1>Игра окончена!</h1>
+        <h2 id="finalResult"></h2>
+        <div class="final-scores">
+            <p>Ваши победы: <span id="finalPlayerScore">0</span></p>
+            <p>Победы компьютера: <span id="finalComputerScore">0</span></p>
+        </div>
+        <div class="actions">
+            <button id="playAgainBtn">Играть снова</button>
+            <button id="viewResultsBtn">Таблица лидеров</button>
+        </div>
+    </div>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
