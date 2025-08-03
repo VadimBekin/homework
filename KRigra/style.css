@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=WDXL+Lubrifont+JP+N&display=swap');
+
+html {
+    --primary-color: hsl(224, 86%, 54%);
+    --secondary-color: hsl(294, 81%, 71%);
+    --btn-primary-color: hsl(295, 55%, 45%);
+
+}
+
+body {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    letter-spacing: 0.15em;
+    font-family: "WDXL Lubrifont JP N", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    background-color: var(--secondary-color);
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 1em;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--btn-primary-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: green;
+}
+input, select {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+    flex-wrap: wrap;
+}
+
+.choice {
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 120px;
+}
+.choice:hover {
+    transform: scale(1.05);
+}
+
+.choice img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0;
+}
+
+.selections img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+#leaderboard th, #leaderboard td {
+    padding: 0.5em;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+#leaderboard th {
+    background-color: whitesmoke;
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.final-scores {
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+#gameOverScreen, #resultDisplay {
+    display: none;
+}
